@@ -1,4 +1,4 @@
-# React Events
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Events
 
 React documention is great, so let's not forget that we can use React documenation as a resource.
 
