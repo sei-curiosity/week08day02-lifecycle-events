@@ -207,8 +207,6 @@ To learn more about React events, we are going to build an application that will
 1\. Creating the boilerplate and rendering an App component
 -----------------------------------------------------------
 
-![Creating the boilerplate task]
-
 The first thing we need to do is to create the boilerplate code for the app. To do this, we import `React` and `ReactDOM` and use `ReactDOM` to render a component called `App`, which we will create later. We then put the `App` component at the 'root'. We also import `App` from its file `"./App"`, which we will create shortly.
 
     // index.js
@@ -230,8 +228,6 @@ We then create our `App.js` file. In it, we create a functional component called
 
 2\. Creating the Header and MemeGen components
 ----------------------------------------------------
-
-![Creating the Header and MemeGen task]
 
 Next up, we create the Header and MemeGen components. The Header will only display elements, while MemeGen will load the provided meme data and retain the data in state.
 
@@ -326,8 +322,6 @@ When we need to load data from an endpoint to use in our component, a good place
       const { meme } = this.props
     }
     
-    
-
 
 Now, we save the results to a new state property called `allMemeImgs`. To do this, we initialize `allMemeImgs` as an empty array.
 
