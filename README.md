@@ -12,7 +12,7 @@ To learn more about React events, we are going to build an application that will
 2.  A form That will add the given text to our random generated meme with each submit action.
 
 ### The final version should look like below
-<img src="https://i.imgur.com/vtIQOXb.jpg" width="400px" height="auto" />
+<img src="https://i.imgur.com/vtIQOXb.jpg" width="900px" height="auto" />
 
 
 ## Let's plan out our steps!
