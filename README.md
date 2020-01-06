@@ -1,4 +1,4 @@
-# React Events
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Events
 
 React documention is great, so let's not forget that we can use React documenation as a resource.
 
@@ -315,7 +315,7 @@ To do this, we build up the empty object we placed in the `<MemeGen/>` when we o
 5\. Working with the lifecycle event
 ------------------------------------
 
-Next, we make an start working on the lifecycle event and save the data (passed either via props or declared within the lifecycle) to a new state property called `allMemeImgs`.  
+Next, we start working on the lifecycle event and save the data (passed either via props or declared within the lifecycle) to a new state property called `allMemeImgs`.  
 When we need to load data from an endpoint to use in our component, a good place to make the request is the `componentDidMount()` lifecycle method. This waits for my component to mount first before working on the data.
 
     componentDidMount() { 
@@ -336,7 +336,7 @@ Now, we save the results to a new state property called `allMemeImgs`. To do thi
 Now, back in `componentDidMount()`, we set state. As we are not interested in what the previous state was, we set `allMemeImgs` to memes.
 
      componentDidMount() {
-      const { meme } = this.props //Can pass the meme data here directly rather than as a prop to work with and setState
+      const { meme } = this.props //Can pass the meme data here directly rather than as a prop
       this.setState({ allMemeImgs: meme });
     }
     
