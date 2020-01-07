@@ -12,7 +12,9 @@ class Meme extends Component {
     render() { 
         return ( 
             <div>
-                {this.props.title}
+               <h1> {this.props.title} </h1>
+              <img src={this.props.image}></img>
+
             </div>
          );
     }

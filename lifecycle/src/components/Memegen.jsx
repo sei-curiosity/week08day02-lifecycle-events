@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+import memList from './data/memList'
+import Meme from './Meme'
 class Memegen extends Component {
     constructor(props) {
         super(props)
         this.state = {
             topText: "",
             bottomText: "",
-            // allMemeImgs: [mem_list]
+            allMemeImgs: memList
         }
     }
     // componentDidMount() {
@@ -227,6 +229,10 @@ handleChange = event => {
                     <h2 className="top">{this.state.topText}</h2>
                     <h2 className="bottom">{this.state.bottomText}</h2>
                 </div>
+                {this.state.allMemeImgs.map((element)=> {
+                    return(<Meme title={element.title} image={element.image} />)
+                })}
+                
            </div>
         )
     }
